@@ -13,7 +13,7 @@ Encore
     .setPublicPath('/build')
     // only needed for CDN's or sub-directory deploy
     //.setManifestKeyPrefix('build/')
-
+  
     /*
      * ENTRY CONFIG
      *
@@ -69,6 +69,9 @@ Encore
     // uncomment if you use API Platform Admin (composer require api-admin)
     //.enableReactPreset()
     //.addEntry('admin', './assets/admin.js')
+
+
+    .enableVueLoader()
 ;
 
 module.exports = Encore.getWebpackConfig();

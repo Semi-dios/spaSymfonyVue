@@ -3,7 +3,7 @@
     "app": {
       "js": [
         "/build/runtime.js",
-        "/build/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/build/vendors-node_modules_jquery_dist_jquery_js-node_modules_vue-loader_lib_runtime_componentNorma-87b651.js",
         "/build/app.js"
       ],
       "css": [

@@ -8,4 +8,14 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import '../assets/scss/app.scss';
 
-import $ from 'jquery';
+const $ = require('jquery');
+global.$ = global.jQuery = $;
+import Vue from 'vue';
+import App from './js/App';
+
+
+
+new Vue({
+    el: '#app',
+    render: h => h(App)
+});
